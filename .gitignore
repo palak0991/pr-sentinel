@@ -1,0 +1,30 @@
+# Secrets - NEVER commit these
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Java / Maven
+target/
+*.class
+
+# IDEs
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Frontend (later phases)
+node_modules/
+dist/
+
+# Logs
+*.log
+logs/
